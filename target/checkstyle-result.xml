@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/App.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/aspect/admin/MQAdminAspect.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/aspect/admin/annotation/MultiMQAdminCmdMethod.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/aspect/admin/annotation/OriginalControllerReturnValue.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/TestController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/MonitorController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/ProducerController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/LoginController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/TopicController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/OpsController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/MessageTraceController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/ConsumerController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/DashboardController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/MessageController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/ClusterController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/controller/NamesvrController.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/exception/ServiceException.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/support/GlobalExceptionHandler.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/support/JsonResult.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/support/GlobalRestfulResponseBodyAdvice.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/filter/HttpBasicAuthorizedFilter.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/interceptor/AuthInterceptor.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/util/MsgTraceDecodeUtil.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/util/JsonUtil.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/util/WebUtil.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/config/RMQConfigure.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/config/AuthWebMVCConfigurerAdapter.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/MessageService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/AbstractCommonService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/UserService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/TopicServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/ClusterServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/DashboardServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/DashboardCollectServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/OpsServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/MessageTraceServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/UserServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/MonitorServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/LoginServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/MessageServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/ProducerServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/impl/ConsumerServiceImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/ProducerService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/DashboardCollectService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/client/MQAdminInstance.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/client/MQAdminExtImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/DashboardService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/ConsumerService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/OpsService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/ClusterService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/TopicService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/checker/impl/TopicOnlyOneBrokerCheckerImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/checker/impl/ClusterHealthCheckerImpl.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/checker/RocketMqChecker.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/checker/CheckerType.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/MessageTraceService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/MonitorService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/service/LoginService.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/TopicConsumerInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/QueueStatInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/User.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/ConsumerGroupRollBackStat.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/MessageTraceView.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/request/TopicConfigInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/request/SendTopicMessageRequest.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/request/DeleteSubGroupRequest.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/request/ResetOffsetRequest.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/request/ConsumerConfigInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/ConnectionInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/GroupConsumeInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/UserInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/LoginInfo.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/MessageView.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/model/ConsumerMonitorConfig.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/task/MonitorTask.java">
+</file>
+<file name="/data/rocketmq-console/src/main/java/org/apache/rocketmq/console/task/DashboardCollectTask.java">
+</file>
+<file name="/data/rocketmq-console/src/main/resources/users.properties">
+</file>
+<file name="/data/rocketmq-console/src/main/resources/application.properties">
+</file>
+<file name="/data/rocketmq-console/src/test/resources/users.properties">
+</file>
+<file name="/data/rocketmq-console/src/test/resources/application.properties">
+</file>
+</checkstyle>
